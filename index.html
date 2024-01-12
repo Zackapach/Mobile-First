@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Mobile First Project</title>
+    <style>
+        p {
+            text-align: justify;
+        }
+
+        #logo {
+            width: 50px;
+        }
+
+        #carouselExampleCaptions {
+            aspect-ratio: 16/10;
+            width: 1280px;
+            margin: auto;
+        }
+
+        #{
+
+        }
+
+        #card {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <!-- start navbar -->
+        <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img id="logo" src="img/2696675_bitcoin_card_method_payment_icon.svg"
+                        alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li> -->
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+
+        </nav>
+        <!-- end navabar -->
+
+        <h1 class="text-center mt-4 mb-4">Mobile First</h1>
+
+    </header>
+
+
+    <!-- START CARROUSSEL -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/Indonesiebali.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/philipines.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/vietnam.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- END CARROUSSEL  -->
+
+    <h3>Mobile World</h3>
+
+    <!-- start main  -->
+    <main class="container-fluid ">
+
+        <!-- start section home  -->
+
+        <section class="mt-4 mb-4 class" id="home">
+            <h2 class="mt-4 mb-4 class">Home</h2>
+            <p class="mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illum tempore non, inventore eum
+                accusamus? Corrupti animi quis asperiores, commodi distinctio nam aperiam ab eligendi, eaque placeat
+                dolore! Facilis quibusdam modi aut perferendis veniam, quaerat rem in, sint cupiditate nobis explicabo
+                eveniet, facere iure dolore! A aut doloremque enim in suscipit totam tenetur delectus eos consequuntur
+                assumenda id eligendi necessitatibus pariatur culpa, mollitia nam, nulla quod perspiciatis tempora.
+                Dicta ipsam consequatur veritatis, maiores esse nobis illo amet tempore repellat dolore modi omnis quo,
+                harum unde inventore corporis quisquam officia perferendis culpa magni quod officiis repellendus quia
+                hic. Atque, harum? Ex, atque. Culpa harum dolores labore facilis tempore id, natus, asperiores sit,
+                beatae sapiente mollitia illum. Voluptatum harum animi id illo dolorem. Sequi id illo quasi provident
+                culpa animi eaque beatae voluptate quaerat. Error sint quas quae recusandae nisi voluptatum cum mollitia
+                qui excepturi, fuga, obcaecati repudiandae unde aliquid, accusantium eius?
+            </p>
+        </section>
+
+
+        <!-- end section home  -->
+
+
+        <!-- section gallery  -->
+
+        <section class="mt-4 mb-4 row" id="gallery">
+            <h2 class="mb-4 class">Gallery</h2>
+            <!-- start card  -->
+
+            <div class="col-12 col-md-4 text-center " id="card">
+                <div class="card" style="width:30rem ;">
+                    <img src="img/sea-4768869_640.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Sea</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est nihil modi
+                            iste dolorum minima neque dolores. Cumque fuga ad eligendi perspiciatis quasi eos alias
+                            minus! Ipsum facere fugit dolores odit vel nam, aspernatur rerum dolore optio hic sed ipsa a
+                            fugiat ab aliquam cupiditate, dolorem maiores laboriosam ea architecto quidem? </p>
+                        <a href="#" class="btn btn-dark">Go somewhere</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 text-center ">
+                <div class="card" style="width: 30rem;">
+                    <img src="img/rice-terraces-164410_640.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Rice Field</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est nihil modi
+                            iste dolorum minima neque dolores. Cumque fuga ad eligendi perspiciatis quasi eos alias
+                            minus! Ipsum facere fugit dolores odit vel nam, aspernatur rerum dolore optio hic sed ipsa a
+                            fugiat ab aliquam cupiditate, dolorem maiores laboriosam ea architecto quidem? </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 text-center ">
+                <div class="card" style="width: 30rem;">
+                    <img src="img/ko-phi-phi-lee-1809771_640.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Waterfall</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est nihil modi
+                            iste dolorum minima neque dolores. Cumque fuga ad eligendi perspiciatis quasi eos alias
+                            minus! Ipsum facere fugit dolores odit vel nam, aspernatur rerum dolore optio hic sed ipsa a
+                            fugiat ab aliquam cupiditate, dolorem maiores laboriosam ea architecto quidem? </p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <!-- end car  -->
+
+        </section>
+
+        <!-- end section gallery  -->
+
+
+        <!-- start section contact  -->
+
+        <section class="contact" id="contact">
+            <h2 class="mt-4 mb-4 class">Contact</h2>
+            <p class="mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illum tempore non, inventore eum
+                accusamus? Corrupti animi quis asperiores, commodi distinctio nam aperiam ab eligendi, eaque placeat
+                dolore! Facilis quibusdam modi aut perferendis veniam, quaerat rem in, sint cupiditate nobis explicabo
+                eveniet, facere iure dolore! A aut doloremque enim in suscipit totam tenetur delectus eos consequuntur
+                assumenda id eligendi necessitatibus pariatur culpa, mollitia nam, nulla quod perspiciatis tempora.
+                Dicta ipsam consequatur veritatis, maiores esse nobis illo amet tempore repellat dolore modi omnis quo,
+                harum unde inventore corporis quisquam officia perferendis culpa magni quod officiis repellendus quia
+                hic. Atque, harum? Ex, atque. Culpa harum dolores labore facilis tempore id, natus, asperiores sit,
+                beatae sapiente mollitia illum. Voluptatum harum animi id illo dolorem. Sequi id illo quasi provident
+                culpa animi eaque beatae voluptate quaerat. Error sint quas quae recusandae nisi voluptatum cum mollitia
+                qui excepturi, fuga, obcaecati repudiandae unde aliquid, accusantium eius?
+            </p>
+        </section>
+
+        <!-- end section contact  -->
+
+    </main>
+    <!-- end main  -->
+    <!-- start footer  -->
+    <footer class="mt-4 p-4 bg-dark text-white">
+        <p class="text-center"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2290.713566650946!2d4.813892253299448!3d45.73999558637516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ebcbbf5dcf7d%3A0x8046dc3f1ae4d957!2sP%C3%B4le%20de%20commerces%20et%20de%20loisirs%20Confluence!5e0!3m2!1sfr!2sfr!4v1705074373187!5m2!1sfr!2sfr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe> </p>
+    </footer>
+    <!-- end footer  -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
